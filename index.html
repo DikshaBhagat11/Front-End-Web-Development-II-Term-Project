@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Cryptocurrency Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cryptocurrency Tracker</h1>
+        <div id="preferences">
+            <h3>User Preferences</h3>
+            <label for="sort-preference">Sort By:</label>
+            <select id="sort-preference">
+                <option value="market_cap">Market Cap</option>
+                <option value="price">Price</option>
+                <option value="24h_change">24h Change</option>
+            </select>
+            <label for="theme">Display Theme:</label>
+            <select id="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <section id="crypto-list"></section>
+        <section id="comparison-section">
+            <h2 id="comparison-heading">Comparison</h2>
+            <div id="comparison-container"></div>
+        </section>
+        <section id="favorites-section">
+            <h2>Favorites</h2>
+            <div id="favorites-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
