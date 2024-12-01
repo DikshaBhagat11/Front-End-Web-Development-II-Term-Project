@@ -214,6 +214,16 @@ body.dark #comparison-section h2 {
     color: #222;
 }
 
+body.dark #favorites-section h2 {
+    color: #222;
+}
+
+body.dark #favorites-container div {
+    background-color: #333;
+    color: #ddd;
+    border-color: #444;
+}
+
 body.dark #crypto-list button {
     background-color: #0069d9;
 }
