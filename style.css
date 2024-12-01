@@ -218,6 +218,10 @@ body.dark #favorites-section h2 {
     color: #222;
 }
 
+body.dark #favorites-container {
+    color: #222;
+}
+
 body.dark #favorites-container div {
     background-color: #333;
     color: #ddd;
